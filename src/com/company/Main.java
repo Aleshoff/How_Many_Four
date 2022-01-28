@@ -9,14 +9,9 @@ public class Main {
         int pages = 250;
         char digitFourSearch = '4';
 
-        ArrayList<Integer> integerArrayList = new ArrayList<>();
-        
-        for (int i = 0; i < pages; i++) {
-            integerArrayList.add(i + 1);
-        }
         ArrayList<String> stringArrayList = new ArrayList<>();
 
-        for (int i = 1; i <= integerArrayList.size(); i++) {
+        for (int i = 1; i <= pages; i++) {
             String temp = String.valueOf(i);
             stringArrayList.add(temp);
         }
